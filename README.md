@@ -1,16 +1,63 @@
-# React + Vite
+# UBreakFix Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, dark-themed dashboard for a phone repair store (inspired by a Figma design). Built with React, Vite, Tailwind CSS, React Router, Recharts, and lucide-react icons.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive sidebar (mobile slide-in + desktop fixed)
+- Glassmorphic cards with blur effects
+- Dynamic page titles in top bar
+- Call logs with selectable items and transcript view
+- Appointments table with pagination
+- Dashboard with stats, area chart (Recharts), recent activity, and progress bars
+- Settings page with profile editing UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 18
+- Vite (build tool)
+- Tailwind CSS (styling)
+- React Router v6 (navigation)
+- Recharts (trends chart)
+- lucide-react (icons)
+- react-icons (additional outline icons)
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js ≥ 18
+- npm or yarn or pnpm
+
+## Installation
+
+1. **Clone the repository** (or unzip the project folder)
+
+   ```bash
+   git clone <your-repo-url>
+   cd ubreakfix-dashboard
+
+
+## Install dependencies
+
+npm install
+# or
+yarn install
+# or
+pnpm install
+
+# Build for production
+
+npm run build
+# or
+yarn build
+# or
+pnpm build
+
+## Project Structure (main folders)
+```
+src/
+├── components/         # reusable pieces (Sidebar, TopBar, StatCard, CallDetails…)
+├── pages/              # main views (Dashboard, CallLogs, Appointments, Settings)
+├── data/               # mock data (calls, appointments)
+├── App.jsx             # main layout + routing
+└── index.css           # global styles + Tailwind imports
+```
