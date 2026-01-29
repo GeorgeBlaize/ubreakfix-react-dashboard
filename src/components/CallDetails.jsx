@@ -57,9 +57,7 @@ export default function CallDetails({ call }) {
           <div className="font-medium text-zinc-100 group-hover:text-white transition-colors">
             Play Audio Recording
           </div>
-          <div className="text-purple-300 text-xs lg:text-sm mt-0.5">
-            3:12 • High quality
-          </div>
+         
         </div>
       </div>
 

@@ -33,7 +33,7 @@ export default function Settings() {
             <div className="text-xs uppercase tracking-wider text-zinc-500 font-medium mb-1">
               PROFILE IMAGE
             </div>
-            <p className="text-zinc-400 text-sm">Click pencil icon to upload new image</p>
+           
           </div>
         </div>
 
