@@ -29,9 +29,9 @@ export default function Dashboard() {
           <h2 className="text-lg lg:text-xl font-semibold mb-6 text-white">Recent Activity</h2>
           <div className="space-y-5 text-sm">
             {[
-              { dot: 'emerald', text: 'AI booked appointment for iPhone 13 screen repair', time: '2 min ago' },
-              { dot: 'amber',   text: 'Warm transfer to technician - Software issue',       time: '5 min ago' },
-              { dot: 'emerald', text: 'Quote provided for iPad battery replacement',       time: '8 min ago' },
+              { dot: 'green', text: 'AI booked appointment for iPhone 13 screen repair', time: '2 min ago' },
+              { dot: 'red',   text: 'Warm transfer to technician - Software issue',       time: '5 min ago' },
+              { dot: 'green', text: 'Quote provided for iPad battery replacement',       time: '8 min ago' },
               { dot: 'red',     text: 'Call dropped after 12 seconds',                     time: '15 min ago' },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-4">

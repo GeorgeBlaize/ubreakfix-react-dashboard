@@ -9,11 +9,8 @@ export default function CallLogs() {
     <div className="min-h-screen bg-gradient-to-b from-zinc-950 to-zinc-900 p-4 sm:p-6 lg:p-8">
       
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 lg:mb-8">
-        <h1 className="font-display text-2xl lg:text-3xl font-semibold tracking-tight text-white">
-          Call Logs & History
-        </h1>
+      
 
-        
         <div className="flex items-center gap-5 sm:gap-6">
           <button className="relative text-zinc-400 hover:text-white transition-colors">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -22,14 +22,11 @@ export default function Sidebar({ mobileOpen, onClose }) {
       >
         
         <div className="p-6 border-b border-zinc-800/50">
-          <div className="flex items-center gap-3">
+          <div className="items-center gap-3">
             <div className="w-11 h-11 bg-emerald-600 rounded-2xl flex items-center justify-center shadow-lg shadow-emerald-900/40">
-              <span className="text-white text-3xl font-black">⚡</span>
+              <span className="text-white text-3xl font-black justify-center">⚡</span>
             </div>
-            <div>
-              <div className="font-display text-2xl font-bold tracking-tight text-white">UBreakFix</div>
-              <div className="text-xs text-zinc-500 font-medium -mt-1">TECH REPAIR</div>
-            </div>
+            
           </div>
         </div>
 
