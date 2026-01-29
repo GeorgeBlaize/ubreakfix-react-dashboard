@@ -4,7 +4,7 @@ import CallTrendsChart from '../components/CallTrendsChart';
 export default function Dashboard() {
   return (
     <div className="p-5 lg:p-6 xl:p-8 space-y-6 lg:space-y-8 bg-zinc-950/50">
-      {/* Stats row 1 */}
+      
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
         <StatCard title="Total Calls Today" value="127" change="+12%" icon="📞" color="blue" />
         <StatCard title="AI-Handled Calls" value="98" change="+77%" icon="🤖" color="purple" />
@@ -12,7 +12,7 @@ export default function Dashboard() {
         <StatCard title="Appointments Booked" value="34" change="+8%" icon="📅" color="emerald" />
       </div>
 
-      {/* Stats row 2 */}
+    
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
         <StatCard title="Appointments Booked" value="34" change="+8% this week" icon="📅" color="emerald" />
         <StatCard title="Missed/Failed Calls" value="6" change="-3%" icon="✖" color="red" />
@@ -22,9 +22,9 @@ export default function Dashboard() {
 
       <CallTrendsChart />
 
-      {/* Bottom row */}
+      
       <div className="grid lg:grid-cols-2 gap-6 lg:gap-8">
-        {/* Recent Activity */}
+       
         <div className="glass-card p-6 lg:p-8">
           <h2 className="text-lg lg:text-xl font-semibold mb-6 text-white">Recent Activity</h2>
           <div className="space-y-5 text-sm">
@@ -45,7 +45,7 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {/* Top Repair Requests */}
+       
         <div className="glass-card p-6 lg:p-8">
           <h2 className="text-lg lg:text-xl font-semibold mb-6 text-white">Top Repair Requests</h2>
           <div className="space-y-6">
