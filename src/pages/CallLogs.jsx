@@ -8,32 +8,7 @@ export default function CallLogs() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-zinc-950 to-zinc-900 p-4 sm:p-6 lg:p-8">
       
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 lg:mb-8">
-      
-
-        <div className="flex items-center gap-5 sm:gap-6">
-          <button className="relative text-zinc-400 hover:text-white transition-colors">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6 6 0 00-12 0v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-            </svg>
-            <span className="absolute -top-1 -right-1 w-3.5 h-3.5 bg-red-500 rounded-full ring-2 ring-zinc-950"></span>
-          </button>
-
-          <div className="flex items-center gap-3">
-            <div className="text-right hidden sm:block">
-              <div className="font-medium text-sm text-white">Jane D.</div>
-              <div className="text-xs text-zinc-500">Store Manager</div>
-            </div>
-            <div className="w-10 h-10 rounded-full overflow-hidden ring-2 ring-zinc-700/70 ring-offset-2 ring-offset-zinc-950">
-              <img
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120"
-                alt="Jane D."
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+   
 
     
       <div className="flex flex-wrap gap-3 mb-6 lg:mb-8">
