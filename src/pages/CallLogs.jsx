@@ -25,15 +25,15 @@ export default function CallLogs() {
           />
         </div>
 
-        <button className="bg-zinc-900/70 border border-zinc-700/60 px-5 py-3.5 rounded-2xl text-sm flex items-center gap-2 hover:bg-zinc-800/70 transition-colors">
+        <button className="bg-zinc-900/70 border border-zinc-700/60 px-5 py-3.5 rounded-2xl text-sm flex items-center gap-2 hover:bg-zinc-800/70 text-white">
           All Type <span className="text-xs opacity-70">▼</span>
         </button>
 
-        <button className="bg-zinc-900/70 border border-zinc-700/60 px-5 py-3.5 rounded-2xl text-sm flex items-center gap-2 hover:bg-zinc-800/70 transition-colors">
+        <button className="bg-zinc-900/70 border border-zinc-700/60 px-5 py-3.5 rounded-2xl text-sm flex items-center gap-2 hover:bg-zinc-800/70 text-white">
           All Issues <span className="text-xs opacity-70">▼</span>
         </button>
 
-        <button className="bg-zinc-900/70 border border-zinc-700/60 px-5 py-3.5 rounded-2xl text-sm flex items-center gap-2 hover:bg-zinc-800/70 transition-colors">
+        <button className="bg-zinc-900/70 border border-zinc-700/60 px-5 py-3.5 rounded-2xl text-sm flex items-center gap-2 hover:bg-zinc-800/70 text-white">
           Today <span className="text-xs opacity-70">▼</span>
         </button>
       </div>
