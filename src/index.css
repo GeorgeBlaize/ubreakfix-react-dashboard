@@ -1,19 +1,27 @@
+/* src/index.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 
-body {
-  @apply bg-gradient-to-br from-zinc-950 via-zinc-950 to-zinc-900;
-  font-family: 'Inter', system-ui, sans-serif;
+
+@import "tailwindcss";
+/* ============================================= */
+/* Global background gradient for the whole app  */
+/* ============================================= */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(to bottom right, #020618, #162456, #0F172B);
+  /* Alternative syntax if you prefer Tailwind-style: */
+  /* bg-gradient-to-br from-[#020618] via-[#162456] to-[#0F172B] */
 }
 
-.font-display {
-  font-family: 'Space Grotesk', sans-serif;
+/* Optional: make sure content doesn't get cut off */
+#root {
+  min-height: 100vh;
 }
 
-/* Custom glass effect */
-.glass-card {
-  @apply bg-zinc-900/40 backdrop-blur-xl border border-zinc-700/50 rounded-2xl lg:rounded-3xl shadow-[0_8px_32px_rgba(0,0,0,0.4)];
-}
+/* Rest of your existing styles... */

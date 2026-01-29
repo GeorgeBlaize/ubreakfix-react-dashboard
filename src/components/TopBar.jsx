@@ -17,7 +17,7 @@ export default function TopBar({ onMenuClick }) {
   const currentTitle = titleMap[location.pathname] || 'Dashboard';
 
   return (
-    <header className="h-16 border-b border-zinc-800/70 bg-zinc-950/80 backdrop-blur-xl flex items-center px-5 lg:px-8 z-40">
+    <header className="bg-gradient-to-br from-[#020618] via-[#162456] to-[#0F172B] h-16 border-b border-zinc-800/70 bg-zinc-950/80 backdrop-blur-xl flex items-center px-5 lg:px-8 z-40 ">
       <button
         className="lg:hidden p-2 -ml-2 text-zinc-400 hover:text-white transition-colors"
         onClick={onMenuClick}
@@ -32,7 +32,7 @@ export default function TopBar({ onMenuClick }) {
         {currentTitle}
       </h1>
 
-      <div className="flex items-center gap-6 lg:gap-8">
+      <div className="flex items-center gap-6 lg:gap-8 ">
         <button className="relative text-zinc-400 hover:text-white transition-colors">
           <Bell className="w-6 h-6" />
           <span className="absolute -top-1 -right-1 w-3.5 h-3.5 bg-red-500 rounded-full ring-2 ring-zinc-950" />

@@ -84,10 +84,10 @@ export default function CallLogs() {
   const [selectedCall, setSelectedCall] = useState(callsData[0] || null);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-zinc-950 via-zinc-950 to-zinc-900 p-4 sm:p-6 lg:p-8">
-      {/* Header */}
+    <div className="min-h-screen  from-zinc-950 via-zinc-950 to-zinc-900 p-4 sm:p-6 lg:p-8">
+   
     
-      {/* Filter/Search bar */}
+ 
       <div className="flex flex-wrap gap-3 mb-6 lg:mb-8">
         <div className="relative flex-1 min-w-[260px]">
           <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
@@ -115,9 +115,9 @@ export default function CallLogs() {
         </button>
       </div>
 
-      {/* Two-column layout */}
+      
       <div className="grid lg:grid-cols-[1fr_380px] xl:grid-cols-[1fr_420px] gap-6 lg:gap-8">
-        {/* Call List */}
+       
         <div className="space-y-3 lg:space-y-4">
           {callsData.map((call) => {
             const isSelected = selectedCall?.id === call.id;
@@ -144,7 +144,7 @@ export default function CallLogs() {
                 } rounded-2xl lg:rounded-3xl`}
               >
                 <div className="flex items-start gap-4 lg:gap-5">
-                  {/* Phone icon */}
+                
                   <div className="w-10 h-10 lg:w-11 lg:h-11 rounded-xl bg-blue-900/30 flex items-center justify-center flex-shrink-0">
                     <svg className="w-5 h-5 lg:w-6 lg:h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path
@@ -157,7 +157,7 @@ export default function CallLogs() {
                   </div>
 
                   <div className="flex-1 min-w-0">
-                    {/* Phone number + date */}
+                   
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-4">
                       <div className="font-mono text-base lg:text-lg font-semibold text-zinc-100">
                         {call.phone}
@@ -167,14 +167,14 @@ export default function CallLogs() {
                       </div>
                     </div>
 
-                    {/* Time + duration */}
+                  
                     <div className="mt-1 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs lg:text-sm text-zinc-400">
                       <span>{call.time}</span>
                       <span className="text-zinc-600">•</span>
                       <span>{call.duration}</span>
                     </div>
 
-                    {/* Badges row */}
+                 
                     <div className="mt-3 flex flex-wrap gap-2">
                       <span
                         className={`inline-flex items-center px-3.5 py-1.5 rounded-full text-xs font-medium border ${statusClass}`}
@@ -207,7 +207,7 @@ export default function CallLogs() {
           })}
         </div>
 
-        {/* Right panel – Call Details */}
+     
         <div className="lg:sticky lg:top-6 h-fit">
           <CallDetails call={selectedCall} />
         </div>

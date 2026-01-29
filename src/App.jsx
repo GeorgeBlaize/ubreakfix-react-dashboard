@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <div className="flex h-screen overflow-hidden">
+      <div className="flex h-screen overflow-hidden min-h-screen bg-gradient-to-br from-[#020618] via-[#162456] to-[#0F172B] text-white">
         <Sidebar mobileOpen={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} />
 
         <div className="flex-1 flex flex-col">
@@ -31,3 +31,6 @@ export default function App() {
     </BrowserRouter>
   );
 }
+
+
+

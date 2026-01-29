@@ -12,12 +12,12 @@ export default function Sidebar({ mobileOpen, onClose }) {
   return (
     <>
       {mobileOpen && (
-        <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-40 lg:hidden" onClick={onClose} />
+        <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-40 lg:hidden " onClick={onClose} />
       )}
 
       <aside
         className={`fixed lg:static inset-y-0 left-0 z-50 w-72 bg-zinc-950/95 backdrop-blur-xl border-r border-zinc-800/70 flex flex-col transform transition-transform duration-300 lg:translate-x-0 ${
-          mobileOpen ? 'translate-x-0' : '-translate-x-full'
+          mobileOpen ? 'translate-x-0' : '-translate-x-full min-h-screen bg-gradient-to-br from-[#020618] via-[#162456] to-[#0F172B] text-white'
         }`}
       >
         
