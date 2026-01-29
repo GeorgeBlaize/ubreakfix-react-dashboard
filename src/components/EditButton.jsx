@@ -1,4 +1,3 @@
-// src/components/EditButton.jsx
 export default function EditButton() {
   return (
     <button className="absolute -bottom-2 -right-2 bg-zinc-950 p-1 rounded-full shadow-lg shadow-cyan-900/30">

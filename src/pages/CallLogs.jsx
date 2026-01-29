@@ -1,8 +1,8 @@
-// src/pages/CallLogs.jsx
+
 import React, { useState } from 'react';
 import CallDetails from '../components/CallDetails';
 
-// Data taken directly from your message (no mockData.js needed anymore)
+
 const callsData = [
   {
     id: 1,

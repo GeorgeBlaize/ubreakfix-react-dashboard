@@ -23,7 +23,7 @@ export default function Sidebar({ mobileOpen, onClose }) {
         
         <div className="p-6 border-b border-zinc-800/50">
           <div className="items-center gap-3">
-            <div className="w-11 h-11 bg-emerald-600 rounded-2xl flex items-center justify-center shadow-lg shadow-emerald-900/40">
+            <div className="w-11 h-11 bg-emerald-600 rounded-2xl flex items-center  shadow-lg shadow-emerald-900/40">
               <span className="text-white text-3xl font-black justify-center">⚡</span>
             </div>
             

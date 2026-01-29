@@ -1,25 +1,18 @@
-/* src/index.css */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import "tailwindcss";
 
 
-@import "tailwindcss";
-/* ============================================= */
-/* Global background gradient for the whole app  */
-/* ============================================= */
 html, body, #root {
   margin: 0;
   padding: 0;
   height: 100%;
   background: linear-gradient(to bottom right, #020618, #162456, #0F172B);
-  /* Alternative syntax if you prefer Tailwind-style: */
-  /* bg-gradient-to-br from-[#020618] via-[#162456] to-[#0F172B] */
+ 
 }
 
-/* Optional: make sure content doesn't get cut off */
+
 #root {
   min-height: 100vh;
 }

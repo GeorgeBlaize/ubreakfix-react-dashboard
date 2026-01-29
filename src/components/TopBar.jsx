@@ -39,10 +39,7 @@ export default function TopBar({ onMenuClick }) {
         </button>
 
         <div className="flex items-center gap-3">
-          <div className="text-right hidden sm:block">
-            <div className="font-medium text-sm text-white">Jane D.</div>
-            <div className="text-xs text-zinc-500">Store Manager</div>
-          </div>
+        
           <div className="w-10 h-10 rounded-full overflow-hidden ring-2 ring-zinc-700/70 ring-offset-2 ring-offset-zinc-950">
             <img
               src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120"
