@@ -16,7 +16,7 @@ export default function Appointments() {
     <div className="p-5 lg:p-6 xl:p-8 space-y-6 lg:space-y-8 bg-zinc-950/50">
    
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-5">
-      }
+      
         <div className="glass-card p-5 lg:p-6">
           <div className="flex items-center gap-5">
             <div className="w-12 h-12 rounded-xl bg-sky-600/20 flex items-center justify-center flex-shrink-0">
