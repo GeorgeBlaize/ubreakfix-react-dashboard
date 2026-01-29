@@ -5,16 +5,16 @@ export default function Dashboard() {
   return (
     <div className="p-5 lg:p-6 xl:p-8 space-y-6 lg:space-y-8 bg-zinc-950/50">
       
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-5">
         <StatCard title="Total Calls Today" value="127" change="+12%" icon="📞" color="blue" />
         <StatCard title="AI-Handled Calls" value="98" change="+77%" icon="🤖" color="purple" />
         <StatCard title="Warm Transfer" value="23" change="+18%" icon="↔️" color="orange" />
-        <StatCard title="Appointments Booked" value="34" change="+8%" icon="📅" color="emerald" />
+        
       </div>
 
     
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
-        <StatCard title="Appointments Booked" value="34" change="+8% this week" icon="📅" color="emerald" />
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-5">
+        <StatCard title="Appointments Booked" value="34" change="+8%" icon="📅" color="emerald" />
         <StatCard title="Missed/Failed Calls" value="6" change="-3%" icon="✖" color="red" />
         <StatCard title="Avg Call Duration" value="3:42" change="+15%" icon="⏱" color="cyan" />
         <div className="hidden lg:block" />
