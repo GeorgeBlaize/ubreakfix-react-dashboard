@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 # UBreakFix Dashboard
 
 A modern, dark-themed dashboard for a phone repair store (inspired by a Figma design). Built with React, Vite, Tailwind CSS, React Router, Recharts, and lucide-react icons.
